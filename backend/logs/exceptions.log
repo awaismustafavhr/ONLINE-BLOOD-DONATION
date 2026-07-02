@@ -1,0 +1,1494 @@
+2025-10-26 19:49:30:4930 [31merror[39m: [31muncaughtException: nodemailer.createTransporter is not a function[39m
+[31mTypeError: nodemailer.createTransporter is not a function[39m
+[31m    at new EmailService (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6:35)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\auth.js:7:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+2025-10-26 19:51:39:5139 [31merror[39m: [31muncaughtException: nodemailer.createTransporter is not a function[39m
+[31mTypeError: nodemailer.createTransporter is not a function[39m
+[31m    at new EmailService (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6:35)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\auth.js:7:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+2025-10-26 19:51:55:5155 [31merror[39m: [31muncaughtException: nodemailer.createTransporter is not a function[39m
+[31mTypeError: nodemailer.createTransporter is not a function[39m
+[31m    at new EmailService (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6:35)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\auth.js:7:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+2025-10-26 19:52:20:5220 [31merror[39m: [31muncaughtException: nodemailer.createTransporter is not a function[39m
+[31mTypeError: nodemailer.createTransporter is not a function[39m
+[31m    at new EmailService (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6:35)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\auth.js:7:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+2025-10-26 19:52:34:5234 [31merror[39m: [31muncaughtException: nodemailer.createTransporter is not a function[39m
+[31mTypeError: nodemailer.createTransporter is not a function[39m
+[31m    at new EmailService (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6:35)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\auth.js:7:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+2025-10-26 19:56:42:5642 [31merror[39m: [31muncaughtException: nodemailer.createTransporter is not a function[39m
+[31mTypeError: nodemailer.createTransporter is not a function[39m
+[31m    at new EmailService (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6:35)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\auth.js:7:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+2025-10-26 19:59:21:5921 [31merror[39m: [31muncaughtException: nodemailer.createTransporter is not a function[39m
+[31mTypeError: nodemailer.createTransporter is not a function[39m
+[31m    at new EmailService (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6:35)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\auth.js:7:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+2025-10-26 20:00:36:036 [31merror[39m: [31muncaughtException: nodemailer.createTransporter is not a function[39m
+[31mTypeError: nodemailer.createTransporter is not a function[39m
+[31m    at new EmailService (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6:35)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\auth.js:7:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+2025-10-26 20:54:44:5444 [31merror[39m: [31muncaughtException: nodemailer.createTransporter is not a function[39m
+[31mTypeError: nodemailer.createTransporter is not a function[39m
+[31m    at new EmailService (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6:35)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\auth.js:7:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+2025-10-26 22:00:43:043 [31merror[39m: [31muncaughtException: nodemailer.createTransporter is not a function[39m
+[31mTypeError: nodemailer.createTransporter is not a function[39m
+[31m    at new EmailService (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6:35)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\auth.js:7:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+2025-10-26 22:00:43:043 [31merror[39m: [31muncaughtException: nodemailer.createTransporter is not a function[39m
+[31mTypeError: nodemailer.createTransporter is not a function[39m
+[31m    at new EmailService (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6:35)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\auth.js:7:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+2025-10-26 22:00:44:044 [31merror[39m: [31muncaughtException: nodemailer.createTransporter is not a function[39m
+[31mTypeError: nodemailer.createTransporter is not a function[39m
+[31m    at new EmailService (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6:35)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\auth.js:7:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+2025-10-26 22:00:53:053 [31merror[39m: [31muncaughtException: nodemailer.createTransporter is not a function[39m
+[31mTypeError: nodemailer.createTransporter is not a function[39m
+[31m    at new EmailService (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6:35)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\auth.js:7:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+2025-10-26 22:00:53:053 [31merror[39m: [31muncaughtException: nodemailer.createTransporter is not a function[39m
+[31mTypeError: nodemailer.createTransporter is not a function[39m
+[31m    at new EmailService (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6:35)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\auth.js:7:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+2025-10-26 22:00:54:054 [31merror[39m: [31muncaughtException: nodemailer.createTransporter is not a function[39m
+[31mTypeError: nodemailer.createTransporter is not a function[39m
+[31m    at new EmailService (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6:35)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\auth.js:7:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+2025-10-26 22:05:17:517 [31merror[39m: [31muncaughtException: nodemailer.createTransporter is not a function[39m
+[31mTypeError: nodemailer.createTransporter is not a function[39m
+[31m    at new EmailService (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6:35)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\auth.js:7:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+2025-10-26 22:07:25:725 [31merror[39m: [31muncaughtException: nodemailer.createTransporter is not a function[39m
+[31mTypeError: nodemailer.createTransporter is not a function[39m
+[31m    at new EmailService (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6:35)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\auth.js:7:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+2025-10-26 22:07:41:741 [31merror[39m: [31muncaughtException: nodemailer.createTransporter is not a function[39m
+[31mTypeError: nodemailer.createTransporter is not a function[39m
+[31m    at new EmailService (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6:35)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\auth.js:7:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+2025-10-26 22:07:59:759 [31merror[39m: [31muncaughtException: nodemailer.createTransporter is not a function[39m
+[31mTypeError: nodemailer.createTransporter is not a function[39m
+[31m    at new EmailService (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6:35)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\auth.js:7:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+2025-10-26 22:08:17:817 [31merror[39m: [31muncaughtException: nodemailer.createTransporter is not a function[39m
+[31mTypeError: nodemailer.createTransporter is not a function[39m
+[31m    at new EmailService (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6:35)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\auth.js:7:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+2025-10-26 22:08:17:817 [31merror[39m: [31muncaughtException: nodemailer.createTransporter is not a function[39m
+[31mTypeError: nodemailer.createTransporter is not a function[39m
+[31m    at new EmailService (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6:35)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\auth.js:7:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+2025-10-26 22:08:17:817 [31merror[39m: [31muncaughtException: nodemailer.createTransporter is not a function[39m
+[31mTypeError: nodemailer.createTransporter is not a function[39m
+[31m    at new EmailService (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6:35)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\auth.js:7:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+2025-10-26 22:08:27:827 [31merror[39m: [31muncaughtException: nodemailer.createTransporter is not a function[39m
+[31mTypeError: nodemailer.createTransporter is not a function[39m
+[31m    at new EmailService (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6:35)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\auth.js:7:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+2025-10-26 22:09:35:935 [31merror[39m: [31muncaughtException: nodemailer.createTransporter is not a function[39m
+[31mTypeError: nodemailer.createTransporter is not a function[39m
+[31m    at new EmailService (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6:35)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\auth.js:7:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+2025-10-26 22:09:48:948 [31merror[39m: [31muncaughtException: nodemailer.createTransporter is not a function[39m
+[31mTypeError: nodemailer.createTransporter is not a function[39m
+[31m    at new EmailService (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6:35)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\auth.js:7:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+2025-10-26 22:09:54:954 [31merror[39m: [31muncaughtException: nodemailer.createTransporter is not a function[39m
+[31mD:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6[39m
+[31m    this.transporter = nodemailer.createTransporter({[39m
+[31m                                  ^[39m
+
+[31mTypeError: nodemailer.createTransporter is not a function[39m
+[31m    at new EmailService (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6:35)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\auth.js:7:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+2025-10-26 22:10:11:1011 [31merror[39m: [31muncaughtException: nodemailer.createTransporter is not a function[39m
+[31mD:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6[39m
+[31m    this.transporter = nodemailer.createTransporter({[39m
+[31m                                  ^[39m
+
+[31mTypeError: nodemailer.createTransporter is not a function[39m
+[31m    at new EmailService (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6:35)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at [eval]:1:41[39m
+[31m    at runScriptInThisContext (node:internal/vm:143:10)[39m
+2025-10-26 22:10:25:1025 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 22:10:25:1025 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 22:10:26:1026 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 22:10:33:1033 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 22:10:33:1033 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 22:10:34:1034 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 22:10:38:1038 [31merror[39m: [31muncaughtException: Maximum call stack size exceeded[39m
+[31mRangeError: Maximum call stack size exceeded[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+2025-10-26 22:10:38:1038 [31merror[39m: [31muncaughtException: Maximum call stack size exceeded[39m
+[31mRangeError: Maximum call stack size exceeded[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+2025-10-26 22:10:39:1039 [31merror[39m: [31muncaughtException: Maximum call stack size exceeded[39m
+[31mRangeError: Maximum call stack size exceeded[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+2025-10-26 22:10:40:1040 [31merror[39m: [31muncaughtException: Maximum call stack size exceeded[39m
+[31mD:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10[39m
+[31m    if (!this.getTransporter()) {[39m
+[31m              ^[39m
+
+[31mRangeError: Maximum call stack size exceeded[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+2025-10-26 22:10:52:1052 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 22:10:52:1052 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 22:10:52:1052 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 22:10:56:1056 [31merror[39m: [31muncaughtException: Maximum call stack size exceeded[39m
+[31mRangeError: Maximum call stack size exceeded[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+2025-10-26 22:10:56:1056 [31merror[39m: [31muncaughtException: Maximum call stack size exceeded[39m
+[31mRangeError: Maximum call stack size exceeded[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+2025-10-26 22:10:57:1057 [31merror[39m: [31muncaughtException: Maximum call stack size exceeded[39m
+[31mRangeError: Maximum call stack size exceeded[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+2025-10-26 22:11:04:114 [31merror[39m: [31muncaughtException: Maximum call stack size exceeded[39m
+[31mD:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10[39m
+[31m    if (!this.getTransporter()) {[39m
+[31m              ^[39m
+
+[31mRangeError: Maximum call stack size exceeded[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+2025-10-26 22:11:22:1122 [31merror[39m: [31muncaughtException: Maximum call stack size exceeded[39m
+[31mRangeError: Maximum call stack size exceeded[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+2025-10-26 22:11:22:1122 [31merror[39m: [31muncaughtException: Maximum call stack size exceeded[39m
+[31mRangeError: Maximum call stack size exceeded[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+2025-10-26 22:11:22:1122 [31merror[39m: [31muncaughtException: Maximum call stack size exceeded[39m
+[31mRangeError: Maximum call stack size exceeded[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+2025-10-26 22:11:30:1130 [31merror[39m: [31muncaughtException: Maximum call stack size exceeded[39m
+[31mD:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10[39m
+[31m    if (!this.getTransporter()) {[39m
+[31m              ^[39m
+
+[31mRangeError: Maximum call stack size exceeded[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+2025-10-26 22:11:57:1157 [31merror[39m: [31muncaughtException: Maximum call stack size exceeded[39m
+[31mRangeError: Maximum call stack size exceeded[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+2025-10-26 22:11:57:1157 [31merror[39m: [31muncaughtException: Maximum call stack size exceeded[39m
+[31mRangeError: Maximum call stack size exceeded[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+2025-10-26 22:11:58:1158 [31merror[39m: [31muncaughtException: Maximum call stack size exceeded[39m
+[31mRangeError: Maximum call stack size exceeded[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:10:15)[39m
+2025-10-26 22:12:13:1213 [31merror[39m: [31muncaughtException: nodemailer.createTransporter is not a function[39m
+[31mTypeError: nodemailer.createTransporter is not a function[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:11:37)[39m
+[31m    at new EmailService (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6:10)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\auth.js:8:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:17:20)[39m
+2025-10-26 22:12:13:1213 [31merror[39m: [31muncaughtException: nodemailer.createTransporter is not a function[39m
+[31mTypeError: nodemailer.createTransporter is not a function[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:11:37)[39m
+[31m    at new EmailService (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6:10)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\auth.js:8:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:17:20)[39m
+2025-10-26 22:12:14:1214 [31merror[39m: [31muncaughtException: nodemailer.createTransporter is not a function[39m
+[31mTypeError: nodemailer.createTransporter is not a function[39m
+[31m    at EmailService.getTransporter (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:11:37)[39m
+[31m    at new EmailService (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\utils\emailService.js:6:10)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\auth.js:8:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:17:20)[39m
+2025-10-26 22:12:20:1220 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 22:12:20:1220 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 22:12:20:1220 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 22:12:41:1241 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 22:12:48:1248 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 22:13:20:1320 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 22:13:21:1321 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 22:13:22:1322 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 22:47:44:4744 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 22:47:44:4744 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 22:47:44:4744 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 22:55:51:5551 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 22:56:02:562 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 22:59:11:5911 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 22:59:38:5938 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 22:59:38:5938 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 22:59:38:5938 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 22:59:42:5942 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 22:59:42:5942 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 22:59:42:5942 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 22:59:46:5946 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 22:59:52:5952 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 23:00:06:06 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 23:00:42:042 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 23:00:42:042 [31merror[39m: [31muncaughtException: body is not defined[39m
+[31mReferenceError: body is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\audit.js:211:3)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:23:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+2025-10-26 23:01:05:15 [31merror[39m: [31muncaughtException: Cannot find module 'exceljs'[39m
+[31mRequire stack:[39m
+[31m- D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\export.js[39m
+[31m- D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js[39m
+[31mError: Cannot find module 'exceljs'[39m
+[31mRequire stack:[39m
+[31m- D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\export.js[39m
+[31m- D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js[39m
+[31m    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:981:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\export.js:11:17)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+2025-10-26 23:01:05:15 [31merror[39m: [31muncaughtException: Cannot find module 'exceljs'[39m
+[31mRequire stack:[39m
+[31m- D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\export.js[39m
+[31m- D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js[39m
+[31mError: Cannot find module 'exceljs'[39m
+[31mRequire stack:[39m
+[31m- D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\export.js[39m
+[31m- D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js[39m
+[31m    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:981:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+[31m    at require (node:internal/modules/helpers:177:18)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\routes\export.js:11:17)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1231:19)[39m
+2025-10-26 23:02:04:24 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:228:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-26 23:02:05:25 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:228:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-26 23:02:20:220 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:228:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-26 23:02:20:220 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:228:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-26 23:02:26:226 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:228:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-26 23:03:16:316 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:228:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-26 23:04:19:419 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:228:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-26 23:04:20:420 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:228:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-26 23:04:41:441 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:228:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:03:41:341 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:228:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:03:52:352 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:228:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:03:52:352 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:228:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:04:00:40 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:228:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:04:00:40 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:228:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:04:35:435 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:228:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:04:36:436 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:228:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:05:25:525 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:228:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:05:48:548 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:228:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:06:22:622 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:228:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:06:29:629 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:228:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:07:51:751 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:228:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:19:32:1932 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:228:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:20:34:2034 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:228:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:24:12:2412 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:228:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:24:12:2412 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:228:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:24:13:2413 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:228:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:24:27:2427 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:228:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:24:27:2427 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:228:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:24:34:2434 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:228:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:25:56:2556 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:228:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:31:01:311 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:257:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:31:02:312 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:257:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:31:02:312 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:257:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:31:22:3122 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:316:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:31:22:3122 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:316:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:31:23:3123 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:316:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:31:42:3142 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:316:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:32:07:327 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:316:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:32:07:327 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:316:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:32:07:327 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:316:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:32:47:3247 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:316:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:32:47:3247 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:316:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:32:47:3247 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:316:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:33:02:332 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:316:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:33:03:333 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:316:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:33:03:333 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:316:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:33:29:3329 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:318:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:36:42:3642 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:318:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:38:27:3827 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:318:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:38:28:3828 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:318:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:38:31:3831 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:318:10[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:40:07:407 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:321:12[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:40:07:407 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:321:12[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:40:07:407 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:321:12[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:44:29:4429 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:321:12[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:44:30:4430 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:321:12[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:44:31:4431 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:321:12[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:45:26:4526 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:321:12[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:45:49:4549 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:321:12[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:45:49:4549 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:321:12[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:50:38:5038 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:321:12[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:50:39:5039 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:321:12[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:50:41:5041 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:321:12[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 03:51:50:5150 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::5000[39m
+[31mError: listen EADDRINUSE: address already in use :::5000[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[31m    at listenInCluster (node:net:1865:12)[39m
+[31m    at Server.listen (node:net:1953:7)[39m
+[31m    at D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:321:12[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-10-27 20:48:25:4825 [31merror[39m: [31muncaughtException: EPIPE: broken pipe, write[39m
+[31mError: EPIPE: broken pipe, write[39m
+[31m    at Socket._write (node:internal/net:61:25)[39m
+[31m    at writeOrBuffer (node:internal/streams/writable:392:12)[39m
+[31m    at _write (node:internal/streams/writable:333:10)[39m
+[31m    at Writable.write (node:internal/streams/writable:337:10)[39m
+[31m    at Array.logRequest (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\node_modules\morgan\index.js:130:14)[39m
+[31m    at listener (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\node_modules\morgan\node_modules\on-finished\index.js:169:15)[39m
+[31m    at onFinish (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\node_modules\morgan\node_modules\on-finished\index.js:100:5)[39m
+[31m    at callback (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\node_modules\ee-first\index.js:55:10)[39m
+[31m    at ServerResponse.onevent (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\node_modules\ee-first\index.js:93:5)[39m
+[31m    at ServerResponse.emit (node:events:529:35)[39m
+[31m    at onFinish (node:_http_outgoing:1008:10)[39m
+[31m    at callback (node:internal/streams/writable:555:21)[39m
+[31m    at afterWrite (node:internal/streams/writable:500:5)[39m
+[31m    at afterWriteTick (node:internal/streams/writable:487:10)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)[39m
+2025-10-27 21:21:02:212 [31merror[39m: [31muncaughtException: EPIPE: broken pipe, write[39m
+[31mError: EPIPE: broken pipe, write[39m
+[31m    at Socket._write (node:internal/net:61:25)[39m
+[31m    at writeOrBuffer (node:internal/streams/writable:392:12)[39m
+[31m    at _write (node:internal/streams/writable:333:10)[39m
+[31m    at Writable.write (node:internal/streams/writable:337:10)[39m
+[31m    at console.value (node:internal/console/constructor:305:16)[39m
+[31m    at console.warn (node:internal/console/constructor:385:26)[39m
+[31m    at slowDown (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\node_modules\express-slow-down\dist\index.cjs:78:13)[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:76:22)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)[39m
+[31m    at node:internal/main/run_main_module:28:49[39m
+2025-10-27 22:37:51:3751 [31merror[39m: [31muncaughtException: path is not defined[39m
+[31mReferenceError: path is not defined[39m
+[31m    at Object.<anonymous> (D:\My files\documents\Semester7\hci_project\blood_donations_system\backend\server.js:98:36)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1364:14)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1203:32)[39m
+[31m    at Module._load (node:internal/modules/cjs/loader:1019:12)[39m
+[31m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)[39m
+[31m    at node:internal/main/run_main_module:28:49[39m
