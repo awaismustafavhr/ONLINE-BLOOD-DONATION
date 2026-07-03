@@ -99,7 +99,8 @@ const limiter = rateLimit({
 const speedLimiter = slowDown({
   windowMs: 15 * 60 * 1000, // 15 minutes
   delayAfter: 50, // allow 50 requests per 15 minutes, then...
-  delayMs: 500 // begin adding 500ms of delay per request above 50
+  delayMs: () => 500, // begin adding 500ms of delay per request above 50
+  validate: { delayMs: false }
 });
 
 app.use(limiter);
@@ -209,6 +210,17 @@ const connectDB = async () => {
       logger.error('- Ensure network access to MongoDB Atlas.');
       logger.error('- Add DNS servers 8.8.8.8,8.8.4.4 in backend/.env under MONGODB_DNS_SERVERS.');
       logger.error('- Confirm that MONGODB_URI is correct and uses a valid cluster host name.');
+    }
+
+    if (error.code === 'ETIMEOUT' && error.syscall === 'querySrv') {
+      logger.error('MongoDB SRV query timed out. This usually means DNS lookup is blocked or network latency is too high.');
+      logger.error('Possible fixes:');
+      logger.error('- Confirm that your machine can resolve _mongodb._tcp cluster SRV records.');
+      logger.error('- Use custom DNS servers in backend/.env via MONGODB_DNS_SERVERS=8.8.8.8,8.8.4.4.');
+    }
+
+    if (error.message && error.message.includes('ENOTFOUND')) {
+      logger.error('MongoDB host resolution failed. The host name could not be resolved. Check DNS and Atlas host name settings.');
     }
 
     process.exit(1);
