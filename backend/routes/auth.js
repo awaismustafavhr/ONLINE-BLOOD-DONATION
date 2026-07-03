@@ -82,16 +82,23 @@ router.post('/register', [
       });
     }
 
-    // Check if trying to register as admin and admin already exists
-    if (role === 'system_admin' || role === 'medical_admin') {
-      const existingAdmin = await User.findOne({
-        role: { $in: ['system_admin', 'medical_admin'] }
-      });
-      
-      if (existingAdmin) {
+    // Check if trying to register as system admin or medical admin
+    if (role === 'system_admin') {
+      const existingSystemAdmin = await User.findOne({ role: 'system_admin' });
+      if (existingSystemAdmin) {
         return res.status(400).json({
           success: false,
-          message: 'Admin user already exists. Admin registration is not allowed.'
+          message: 'System administrator already exists. Admin registration is not allowed.'
+        });
+      }
+    }
+
+    if (role === 'medical_admin') {
+      const existingMedicalAdmin = await User.findOne({ role: 'medical_admin' });
+      if (existingMedicalAdmin) {
+        return res.status(400).json({
+          success: false,
+          message: 'Medical administrator already exists. Admin registration is not allowed.'
         });
       }
     }

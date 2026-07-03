@@ -24,6 +24,33 @@ router.get('/system-admin-exists', async (req, res) => {
   }
 });
 
+// Development-only endpoint to remove existing system administrator(s)
+router.delete('/system-admin-reset', async (req, res) => {
+  if (process.env.ALLOW_SYSTEM_ADMIN_RESET !== 'true') {
+    return res.status(403).json({
+      success: false,
+      message: 'System admin reset is disabled. Set ALLOW_SYSTEM_ADMIN_RESET=true in .env to enable this endpoint.'
+    });
+  }
+
+  try {
+    const email = req.query.email;
+    const filter = { role: 'system_admin' };
+    if (email) filter.email = email.toLowerCase();
+
+    const result = await User.deleteMany(filter);
+
+    return res.json({
+      success: true,
+      message: `Deleted ${result.deletedCount} system administrator(s).`, 
+      deletedCount: result.deletedCount
+    });
+  } catch (error) {
+    logger.error('System admin reset error:', error);
+    return res.status(500).json({ success: false, message: 'Server error' });
+  }
+});
+
 // Configure Cloudinary
 cloudinary.config({
   cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
