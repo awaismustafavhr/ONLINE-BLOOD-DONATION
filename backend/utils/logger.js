@@ -29,26 +29,23 @@ const level = () => {
   return isDevelopment ? 'debug' : 'warn';
 };
 
-// Define different log formats
-const format = winston.format.combine(
-  // Add timestamp
+// Define console log format
+const consoleFormat = winston.format.combine(
+  winston.format.colorize(),
   winston.format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss:ms' }),
-  // Add colors
-  winston.format.colorize({ all: true }),
-  // Define the format of the message
   winston.format.printf(
-    (info) => `${info.timestamp} ${info.level}: ${info.message}`,
-  ),
+    (info) => `${info.timestamp} ${info.level}: ${info.message}`
+  )
 );
+
+// Define default logger format
+const format = winston.format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss:ms' });
 
 // Define transports
 const transports = [
   // Console transport
   new winston.transports.Console({
-    format: winston.format.combine(
-      winston.format.colorize(),
-      winston.format.simple()
-    )
+    format: consoleFormat
   }),
   
   // File transport for errors
