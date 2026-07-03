@@ -8330,3 +8330,95 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mFound 0 notifications out of 0 total for user 6a4673373981a22cf2c9bec4\u001b[39m","timestamp":"2026-07-02 21:10:18:1018"}
 {"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mFound 0 notifications out of 0 total for user 6a4673373981a22cf2c9bec4\u001b[39m","timestamp":"2026-07-02 21:10:18:1018"}
 {"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mUser logged out: awaischoudhary198@gmail.com\u001b[39m","timestamp":"2026-07-02 21:10:31:1031"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAttempting to connect to MongoDB using URI: mongodb+srv://awais:awais123456@cluster0.slr4sml.mongodb.net/blood_donation?appName=Cluster0\u001b[39m","timestamp":"2026-07-02 21:29:32:2932"}
+{"level":"\u001b[31merror\u001b[39m","message":"\u001b[31mDatabase connection error: Server selection timed out after 10000 ms\u001b[39m","stack":"MongooseServerSelectionError: Server selection timed out after 10000 ms\n    at _handleConnectionErrors (C:\\Users\\awais\\OneDrive\\Documents\\MERN-Projects\\blood_donations_system\\backend\\node_modules\\mongoose\\lib\\connection.js:1169:11)\n    at NativeConnection.openUri (C:\\Users\\awais\\OneDrive\\Documents\\MERN-Projects\\blood_donations_system\\backend\\node_modules\\mongoose\\lib\\connection.js:1100:11)\n    at async connectDB (C:\\Users\\awais\\OneDrive\\Documents\\MERN-Projects\\blood_donations_system\\backend\\server.js:183:18)","timestamp":"2026-07-02 21:29:42:2942"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAttempting to connect to MongoDB using URI: mongodb+srv://awais:awais123456@cluster0.slr4sml.mongodb.net/blood_donation?appName=Cluster0\u001b[39m","timestamp":"2026-07-02 21:29:50:2950"}
+{"code":"ETIMEOUT","hostname":"_mongodb._tcp.cluster0.slr4sml.mongodb.net","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mDatabase connection error: querySrv ETIMEOUT _mongodb._tcp.cluster0.slr4sml.mongodb.net\u001b[39m","stack":"Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.slr4sml.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)","syscalls":"querySrv","timestamp":"2026-07-02 21:31:26:3126"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAttempting to connect to MongoDB using URI: mongodb+srv://awais:awais123456@cluster0.slr4sml.mongodb.net/blood_donation?appName=Cluster0\u001b[39m","timestamp":"2026-07-02 22:21:16:2116"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mMongoDB Connected: ac-8r8czhq-shard-00-01.slr4sml.mongodb.net\u001b[39m","timestamp":"2026-07-02 22:21:17:2117"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mSetting up database indexes...\u001b[39m","timestamp":"2026-07-02 22:21:17:2117"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mDatabase indexes created successfully\u001b[39m","timestamp":"2026-07-02 22:21:19:2119"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mDatabase setup completed successfully\u001b[39m","timestamp":"2026-07-02 22:21:19:2119"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mStarting HTTP server...\u001b[39m","timestamp":"2026-07-02 22:21:19:2119"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mServer startup initiated successfully\u001b[39m","timestamp":"2026-07-02 22:21:20:2120"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mBloodLink server running on port 5000\u001b[39m","timestamp":"2026-07-02 22:21:20:2120"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mEnvironment: development\u001b[39m","timestamp":"2026-07-02 22:21:20:2120"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mHealth check: http://localhost:5000/health\u001b[39m","timestamp":"2026-07-02 22:21:20:2120"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAttempting to connect to MongoDB using URI: mongodb+srv://awais:awais123456@cluster0.slr4sml.mongodb.net/blood_donation?appName=Cluster0\u001b[39m","timestamp":"2026-07-02 22:26:42:2642"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mMongoDB Connected: ac-8r8czhq-shard-00-00.slr4sml.mongodb.net\u001b[39m","timestamp":"2026-07-02 22:26:44:2644"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mSetting up database indexes...\u001b[39m","timestamp":"2026-07-02 22:26:44:2644"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mDatabase indexes created successfully\u001b[39m","timestamp":"2026-07-02 22:26:47:2647"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mDatabase setup completed successfully\u001b[39m","timestamp":"2026-07-02 22:26:47:2647"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mStarting HTTP server...\u001b[39m","timestamp":"2026-07-02 22:26:47:2647"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mServer startup initiated successfully\u001b[39m","timestamp":"2026-07-02 22:26:47:2647"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mBloodLink server running on port 5000\u001b[39m","timestamp":"2026-07-02 22:26:47:2647"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mEnvironment: development\u001b[39m","timestamp":"2026-07-02 22:26:47:2647"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mHealth check: http://localhost:5000/health\u001b[39m","timestamp":"2026-07-02 22:26:47:2647"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAttempting to connect to MongoDB using URI: mongodb+srv://awais:awais123456@cluster0.slr4sml.mongodb.net/blood_donation?appName=Cluster0\u001b[39m","timestamp":"2026-07-02 22:28:20:2820"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mMongoDB Connected: ac-8r8czhq-shard-00-00.slr4sml.mongodb.net\u001b[39m","timestamp":"2026-07-02 22:28:22:2822"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mSetting up database indexes...\u001b[39m","timestamp":"2026-07-02 22:28:22:2822"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mDatabase indexes created successfully\u001b[39m","timestamp":"2026-07-02 22:28:25:2825"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mDatabase setup completed successfully\u001b[39m","timestamp":"2026-07-02 22:28:25:2825"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mStarting HTTP server...\u001b[39m","timestamp":"2026-07-02 22:28:25:2825"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mServer startup initiated successfully\u001b[39m","timestamp":"2026-07-02 22:28:25:2825"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mBloodLink server running on port 5000\u001b[39m","timestamp":"2026-07-02 22:28:25:2825"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mEnvironment: development\u001b[39m","timestamp":"2026-07-02 22:28:25:2825"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mHealth check: http://localhost:5000/health\u001b[39m","timestamp":"2026-07-02 22:28:25:2825"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAttempting to connect to MongoDB using URI: mongodb+srv://awais:awais123456@cluster0.slr4sml.mongodb.net/blood_donation?appName=Cluster0\u001b[39m","timestamp":"2026-07-02 22:36:03:363"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mMongoDB Connected: ac-8r8czhq-shard-00-00.slr4sml.mongodb.net\u001b[39m","timestamp":"2026-07-02 22:36:04:364"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mSetting up database indexes...\u001b[39m","timestamp":"2026-07-02 22:36:04:364"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mDatabase indexes created successfully\u001b[39m","timestamp":"2026-07-02 22:36:08:368"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mDatabase setup completed successfully\u001b[39m","timestamp":"2026-07-02 22:36:08:368"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mStarting HTTP server...\u001b[39m","timestamp":"2026-07-02 22:36:08:368"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mServer startup initiated successfully\u001b[39m","timestamp":"2026-07-02 22:36:08:368"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mBloodLink server running on port 5000\u001b[39m","timestamp":"2026-07-02 22:36:08:368"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mEnvironment: development\u001b[39m","timestamp":"2026-07-02 22:36:08:368"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mHealth check: http://localhost:5000/health\u001b[39m","timestamp":"2026-07-02 22:36:08:368"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAttempting to connect to MongoDB using URI: mongodb+srv://awais:awais123456@cluster0.slr4sml.mongodb.net/blood_donation?appName=Cluster0\u001b[39m","timestamp":"2026-07-02 23:35:11:3511"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mMongoDB Connected: ac-8r8czhq-shard-00-00.slr4sml.mongodb.net\u001b[39m","timestamp":"2026-07-02 23:35:12:3512"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mSetting up database indexes...\u001b[39m","timestamp":"2026-07-02 23:35:12:3512"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAttempting to connect to MongoDB using URI: mongodb+srv://awais:awais123456@cluster0.slr4sml.mongodb.net/blood_donation?appName=Cluster0\u001b[39m","timestamp":"2026-07-02 23:35:16:3516"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mMongoDB Connected: ac-8r8czhq-shard-00-00.slr4sml.mongodb.net\u001b[39m","timestamp":"2026-07-02 23:35:17:3517"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mSetting up database indexes...\u001b[39m","timestamp":"2026-07-02 23:35:17:3517"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mDatabase indexes created successfully\u001b[39m","timestamp":"2026-07-02 23:35:19:3519"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mDatabase setup completed successfully\u001b[39m","timestamp":"2026-07-02 23:35:19:3519"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mStarting HTTP server...\u001b[39m","timestamp":"2026-07-02 23:35:19:3519"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mServer startup initiated successfully\u001b[39m","timestamp":"2026-07-02 23:35:19:3519"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mBloodLink server running on port 5000\u001b[39m","timestamp":"2026-07-02 23:35:19:3519"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mEnvironment: development\u001b[39m","timestamp":"2026-07-02 23:35:19:3519"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mHealth check: http://localhost:5000/health\u001b[39m","timestamp":"2026-07-02 23:35:19:3519"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAttempting to connect to MongoDB using URI: mongodb+srv://awais:awais123456@cluster0.slr4sml.mongodb.net/blood_donation?appName=Cluster0\u001b[39m","timestamp":"2026-07-02 23:41:55:4155"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mMongoDB Connected: ac-8r8czhq-shard-00-01.slr4sml.mongodb.net\u001b[39m","timestamp":"2026-07-02 23:41:56:4156"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mSetting up database indexes...\u001b[39m","timestamp":"2026-07-02 23:41:56:4156"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mDatabase indexes created successfully\u001b[39m","timestamp":"2026-07-02 23:41:59:4159"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mNew user registered: alimustafavhr@gmail.com\u001b[39m","timestamp":"2026-07-02 23:47:23:4723"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mFetching notifications for user 6a475afaf12a860397569e35 (alimustafavhr@gmail.com) with filter:\u001b[39m","timestamp":"2026-07-02 23:47:23:4723"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mFetching notifications for user 6a475afaf12a860397569e35 (alimustafavhr@gmail.com) with filter:\u001b[39m","timestamp":"2026-07-02 23:47:23:4723"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mFound 3 notifications out of 3 total for user 6a475afaf12a860397569e35\u001b[39m","timestamp":"2026-07-02 23:47:23:4723"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mFound 3 notifications out of 3 total for user 6a475afaf12a860397569e35\u001b[39m","timestamp":"2026-07-02 23:47:23:4723"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mFetching notifications for user 6a475afaf12a860397569e35 (alimustafavhr@gmail.com) with filter:\u001b[39m","timestamp":"2026-07-02 23:47:43:4743"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mFound 3 notifications out of 3 total for user 6a475afaf12a860397569e35\u001b[39m","timestamp":"2026-07-02 23:47:43:4743"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mUser logged out: alimustafavhr@gmail.com\u001b[39m","timestamp":"2026-07-02 23:47:56:4756"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mUser logged in: alimustafavhr@gmail.com\u001b[39m","timestamp":"2026-07-02 23:51:05:515"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mFetching notifications for user 6a475afaf12a860397569e35 (alimustafavhr@gmail.com) with filter:\u001b[39m","timestamp":"2026-07-02 23:51:05:515"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mFound 3 notifications out of 3 total for user 6a475afaf12a860397569e35\u001b[39m","timestamp":"2026-07-02 23:51:05:515"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mAdmin users query: Found 10 users out of 18 total\u001b[39m","timestamp":"2026-07-02 23:51:12:5112"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mFilter used:\u001b[39m","timestamp":"2026-07-02 23:51:12:5112"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mQuery params:\u001b[39m","timestamp":"2026-07-02 23:51:12:5112"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mSample user medical verification status:\u001b[39m","timestamp":"2026-07-02 23:51:12:5112"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mFetching notifications for user 6a475afaf12a860397569e35 (alimustafavhr@gmail.com) with filter:\u001b[39m","timestamp":"2026-07-02 23:51:25:5125"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mFound 3 notifications out of 3 total for user 6a475afaf12a860397569e35\u001b[39m","timestamp":"2026-07-02 23:51:25:5125"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mFetching notifications for user 6a475afaf12a860397569e35 (alimustafavhr@gmail.com) with filter:\u001b[39m","timestamp":"2026-07-02 23:51:45:5145"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mFound 3 notifications out of 3 total for user 6a475afaf12a860397569e35\u001b[39m","timestamp":"2026-07-02 23:51:45:5145"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mFetching notifications for user 6a475afaf12a860397569e35 (alimustafavhr@gmail.com) with filter:\u001b[39m","timestamp":"2026-07-02 23:51:49:5149"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mFound 3 notifications out of 3 total for user 6a475afaf12a860397569e35\u001b[39m","timestamp":"2026-07-02 23:51:49:5149"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mFetching notifications for user 6a475afaf12a860397569e35 (alimustafavhr@gmail.com) with filter:\u001b[39m","timestamp":"2026-07-02 23:51:55:5155"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mFound 3 notifications out of 3 total for user 6a475afaf12a860397569e35\u001b[39m","timestamp":"2026-07-02 23:51:55:5155"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mFetching notifications for user 6a475afaf12a860397569e35 (alimustafavhr@gmail.com) with filter:\u001b[39m","timestamp":"2026-07-02 23:52:05:525"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mFound 3 notifications out of 3 total for user 6a475afaf12a860397569e35\u001b[39m","timestamp":"2026-07-02 23:52:06:526"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mFetching notifications for user 6a475afaf12a860397569e35 (alimustafavhr@gmail.com) with filter:\u001b[39m","timestamp":"2026-07-02 23:52:06:526"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mFound 3 notifications out of 3 total for user 6a475afaf12a860397569e35\u001b[39m","timestamp":"2026-07-02 23:52:07:527"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mFetching notifications for user 6a475afaf12a860397569e35 (alimustafavhr@gmail.com) with filter:\u001b[39m","timestamp":"2026-07-02 23:52:26:5226"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mFound 3 notifications out of 3 total for user 6a475afaf12a860397569e35\u001b[39m","timestamp":"2026-07-02 23:52:26:5226"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mFetching notifications for user 6a475afaf12a860397569e35 (alimustafavhr@gmail.com) with filter:\u001b[39m","timestamp":"2026-07-02 23:52:46:5246"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mFound 3 notifications out of 3 total for user 6a475afaf12a860397569e35\u001b[39m","timestamp":"2026-07-02 23:52:46:5246"}
