@@ -14,11 +14,12 @@ const { createServer } = require('http');
 const { Server } = require('socket.io');
 const path = require('path');
 require('dotenv').config();
+const logger = require('./utils/logger');
 
 const setDefaultMongoDnsServers = () => {
   const defaultServers = ['8.8.8.8', '8.8.4.4'];
   dns.setServers(defaultServers);
-  console.info(`Using default DNS servers for MongoDB SRV resolution: ${defaultServers.join(', ')}`);
+  logger.info(`Using default DNS servers for MongoDB SRV resolution: ${defaultServers.join(', ')}`);
 };
 
 if (process.env.MONGODB_DNS_SERVERS) {
@@ -50,7 +51,6 @@ const adminRoutes = require('./routes/admin');
 // Import middleware
 const errorHandler = require('./middleware/errorHandler');
 const auditLogger = require('./middleware/auditLogger');
-const logger = require('./utils/logger');
 
 const app = express();
 const server = createServer(app);

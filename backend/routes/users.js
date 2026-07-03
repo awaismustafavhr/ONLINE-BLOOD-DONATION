@@ -277,7 +277,7 @@ router.post('/', protect, [
       userId: req.user._id,
       userEmail: req.user.email,
       userRole: req.user.role,
-      action: 'create',
+      action: 'user_create',
       resourceType: 'user',
       resourceId: user._id,
       requestId: req.id,

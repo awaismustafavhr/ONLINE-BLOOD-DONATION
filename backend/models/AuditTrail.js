@@ -27,24 +27,26 @@ const auditTrailSchema = new mongoose.Schema({
       
       // User actions
       'profile_update', 'profile_picture_update', 'profile_view', 'password_change', 'settings_update',
+      'user_create', 'user_update', 'user_delete', 'user_block', 'user_unblock', 'role_change',
       
       // Blood request actions
       'blood_request_create', 'blood_request_update', 'blood_request_delete', 'blood_request_view',
-      'blood_request_match', 'blood_request_confirm', 'blood_request_complete', 'blood_request_cancel',
+      'blood_request_match', 'blood_request_confirm', 'blood_request_complete', 'blood_request_cancel', 'blood_request_decline',
       
       // Donation actions
       'donation_schedule', 'donation_start', 'donation_complete', 'donation_cancel',
-      'donation_test', 'donation_store', 'donation_distribute',
+      'donation_test', 'donation_store', 'donation_distribute', 'donation_status_update',
+      'donation_recipient_response', 'donation_recipient_review', 'feedback_submission',
       
       // Notification actions
       'notification_send', 'notification_read', 'notification_delete',
+      'system_announcement',
       
       // Admin actions
-      'user_create', 'user_update', 'user_delete', 'user_block', 'user_unblock',
-      'system_config_update', 'data_export', 'data_import', 'backup_create',
+      'system_config_update', 'data_export', 'data_import', 'backup_create', 'system_cleanup',
       
       // Medical actions
-      'medical_verification', 'health_check', 'test_result_update',
+      'medical_verification', 'medical_update', 'health_check', 'test_result_update',
       
       // Security actions
       'security_alert', 'suspicious_activity', 'access_denied', 'permission_change'
@@ -55,7 +57,7 @@ const auditTrailSchema = new mongoose.Schema({
   resourceType: {
     type: String,
     required: true,
-    enum: ['user', 'blood_request', 'donation', 'notification', 'system', 'medical_record', 'authentication']
+    enum: ['user', 'blood_request', 'donation', 'notification', 'system', 'medical_record', 'authentication', 'audit_trail', 'analytics']
   },
   resourceId: {
     type: mongoose.Schema.Types.ObjectId,

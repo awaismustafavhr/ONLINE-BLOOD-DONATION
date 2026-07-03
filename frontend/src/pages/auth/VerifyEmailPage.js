@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { FaArrowLeft, FaEnvelope, FaCheckCircle, FaExclamationTriangle, FaSpinner } from 'react-icons/fa';
+import { FaEnvelope, FaCheckCircle, FaExclamationTriangle, FaSpinner } from 'react-icons/fa';
 import LoadingSpinner from '../../components/ui/LoadingSpinner';
 import Button from '../../components/ui/Button';
+import { authAPI } from '../../services/api';
 
 const VerifyEmailPage = () => {
   const { token } = useParams();
@@ -18,15 +19,18 @@ const VerifyEmailPage = () => {
   useEffect(() => {
     const verifyEmail = async () => {
       try {
-        // Simulate email verification
-        await new Promise(resolve => setTimeout(resolve, 2000));
-        
-        // In a real app, you would verify the email with the API
-        // const response = await authAPI.verifyEmail(token);
-        
-        setIsSuccess(true);
+        const response = await authAPI.verifyEmail(token);
+
+        if (response?.data?.success) {
+          setIsSuccess(true);
+        } else {
+          setError(response?.data?.message || 'Verification failed. Please try again later.');
+        }
       } catch (err) {
-        setError('Invalid or expired verification token. Please request a new verification email.');
+        setError(
+          err.response?.data?.message ||
+          'Invalid or expired verification token. Please request a new verification email.'
+        );
       } finally {
         setIsVerifying(false);
       }

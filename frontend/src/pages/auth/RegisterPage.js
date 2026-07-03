@@ -1,16 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
 import { useTheme } from '../../contexts/ThemeContext';
 import { FaEye, FaEyeSlash, FaHeart, FaSpinner, FaCheck, FaTimes } from 'react-icons/fa';
 import { motion } from 'framer-motion';
-import toast from 'react-hot-toast';
 import { userAPI } from '../../services/api';
 
 const RegisterPage = () => {
   const { register, isRegistering } = useAuth();
   const { getGradientClasses } = useTheme();
-  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -63,6 +61,8 @@ const RegisterPage = () => {
     { value: 'system_admin', label: 'System Administrator', description: 'I will manage the blood donation system' }
   ];
 
+  const displayedRoles = roles;
+
   // Fetch whether system admin exists (public endpoint)
   useEffect(() => {
     let mounted = true;
@@ -71,10 +71,6 @@ const RegisterPage = () => {
         const res = await userAPI.systemAdminExists();
         const exists = res?.data?.data?.exists === true;
         if (mounted) setSystemAdminExists(exists);
-        // If admin exists and role currently selected is system_admin, reset to donor
-        if (exists && formData.role === 'system_admin') {
-          setFormData(prev => ({ ...prev, role: 'donor' }));
-        }
       } catch (e) {
         // Silent fail - default to showing options
       }
@@ -165,6 +161,8 @@ const RegisterPage = () => {
       case 4:
         if (!formData.agreeToTerms) newErrors.agreeToTerms = 'You must agree to the terms';
         if (!formData.agreeToPrivacy) newErrors.agreeToPrivacy = 'You must agree to the privacy policy';
+        break;
+      default:
         break;
     }
 
@@ -289,9 +287,7 @@ const RegisterPage = () => {
                 I want to be a *
               </label>
               <div className="space-y-3">
-                {roles
-                  .filter(r => r.value !== 'system_admin' || !systemAdminExists)
-                  .map((role) => (
+                {displayedRoles.map((role) => (
                   <label key={role.value} className="flex items-start space-x-3 p-4 border rounded-lg cursor-pointer hover:bg-neutral-50 transition-colors">
                     <input
                       type="radio"
@@ -310,6 +306,11 @@ const RegisterPage = () => {
                 ))}
               </div>
               {errors.role && <p className="mt-1 text-sm text-red-600">{errors.role}</p>}
+              {systemAdminExists && (
+                <p className="mt-3 text-sm text-yellow-600">
+                  A system administrator already exists. Selecting "System Administrator" may be blocked by the backend.
+                </p>
+              )}
             </div>
           </div>
         );

@@ -43,7 +43,7 @@ const logAuditTrail = async (req, res, startTime, responseBody) => {
     // Extract user information
     let userId = null;
     let userEmail = 'anonymous@system.local';
-    let userRole = 'donor'; // Default to a valid enum value
+    let userRole = 'anonymous';
     
     if (req.user) {
       userId = req.user.id;
