@@ -7,8 +7,6 @@ import {
   FaChartPie, 
   FaChartArea, 
   FaDownload, 
-  FaFilter, 
-  FaCalendarAlt, 
   FaHeart, 
   FaHandHoldingHeart, 
   FaUsers, 
@@ -18,18 +16,15 @@ import {
   FaArrowUp, 
   FaArrowDown, 
   FaMinus,
-  FaEye,
   FaSync
 } from 'react-icons/fa';
 import { useQuery } from 'react-query';
 import { analyticsAPI } from '../../services/api';
 import LoadingSpinner from '../../components/ui/LoadingSpinner';
-import Button from '../../components/ui/Button';
-import Select from '../../components/ui/Select';
 import Badge from '../../components/ui/Badge';
 
 const AnalyticsPage = () => {
-  const { user, hasRole } = useAuth();
+  const { hasRole } = useAuth();
   
   // State
   const [selectedPeriod, setSelectedPeriod] = useState('30d');
