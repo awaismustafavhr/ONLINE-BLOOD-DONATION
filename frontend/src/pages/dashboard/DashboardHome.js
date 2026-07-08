@@ -22,13 +22,10 @@ import {
   FaUser,
   FaUserMd,
   FaUserShield,
-  FaHospital,
-  FaPhone,
-  FaEnvelope
 } from 'react-icons/fa';
 import { useQuery } from 'react-query';
 import { useNavigate } from 'react-router-dom';
-import { userAPI, bloodRequestAPI, donationAPI, notificationAPI } from '../../services/api';
+import { userAPI, notificationAPI } from '../../services/api';
 import LoadingSpinner from '../../components/ui/LoadingSpinner';
 import Button from '../../components/ui/Button';
 import Badge from '../../components/ui/Badge';

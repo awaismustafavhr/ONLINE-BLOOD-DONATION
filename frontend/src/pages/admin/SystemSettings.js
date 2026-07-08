@@ -9,33 +9,18 @@ import {
   FaDatabase, 
   FaBell, 
   FaGlobe, 
-  FaKey, 
-  FaUserShield,
-  FaServer,
   FaCloud,
-  FaLock,
-  FaUnlock,
-  FaCheckCircle,
-  FaExclamationTriangle,
-  FaInfoCircle,
-  FaEdit,
-  FaTrash,
-  FaPlus,
-  FaEye,
-  FaEyeSlash
+  FaEdit
 } from 'react-icons/fa';
 import { useQuery, useMutation, useQueryClient } from 'react-query';
 import { adminAPI } from '../../services/api';
 import LoadingSpinner from '../../components/ui/LoadingSpinner';
 import Modal from '../../components/ui/Modal';
 import Button from '../../components/ui/Button';
-import Input from '../../components/ui/Input';
-import Select from '../../components/ui/Select';
-import Badge from '../../components/ui/Badge';
 import Toggle from '../../components/ui/Toggle';
 
 const SystemSettings = () => {
-  const { user, hasRole } = useAuth();
+  const { hasRole } = useAuth();
   const queryClient = useQueryClient();
   
   // State
@@ -114,12 +99,6 @@ const SystemSettings = () => {
       description: getSettingDescription(key)
     });
     setShowEditModal(true);
-  };
-
-  // Handle delete setting
-  const handleDeleteSetting = (key) => {
-    setDeletingSetting(key);
-    setShowDeleteModal(true);
   };
 
   // Handle update setting

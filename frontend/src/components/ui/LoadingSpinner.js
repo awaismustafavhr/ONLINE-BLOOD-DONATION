@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { useTheme } from '../../contexts/ThemeContext';
 
 const LoadingSpinner = ({ 
   size = 'md', 
@@ -9,8 +8,6 @@ const LoadingSpinner = ({
   fullScreen = false,
   className = '' 
 }) => {
-  const { getBloodTypeThemeClasses } = useTheme();
-
   const sizeClasses = {
     sm: 'w-4 h-4',
     md: 'w-8 h-8',

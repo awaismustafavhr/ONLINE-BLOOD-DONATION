@@ -5,19 +5,14 @@ import {
   FaFileAlt, 
   FaDownload, 
   FaCalendarAlt, 
-  FaFilter, 
   FaChartBar, 
-  FaChartPie, 
   FaChartLine, 
   FaEye, 
-  FaPrint, 
-  FaShare, 
   FaHeart, 
   FaHandHoldingHeart, 
   FaUsers, 
   FaTint,
   FaMapMarkerAlt,
-  FaClock,
   FaCheckCircle,
   FaBell,
   FaExclamationTriangle,
@@ -28,14 +23,12 @@ import { useQuery, useMutation } from 'react-query';
 import { adminAPI } from '../../services/api';
 import LoadingSpinner from '../../components/ui/LoadingSpinner';
 import Button from '../../components/ui/Button';
-import Input from '../../components/ui/Input';
-import Select from '../../components/ui/Select';
 import Badge from '../../components/ui/Badge';
 import Modal from '../../components/ui/Modal';
 import toast from 'react-hot-toast';
 
 const ReportsPage = () => {
-  const { user, hasRole } = useAuth();
+  const { hasRole } = useAuth();
   
   // State
   const [selectedReport, setSelectedReport] = useState('');

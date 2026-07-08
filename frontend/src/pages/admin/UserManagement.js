@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 import { 
   FaUsers, 
   FaSearch, 
-  FaFilter, 
   FaPlus, 
   FaEdit, 
   FaTrash, 
@@ -17,14 +16,6 @@ import {
   FaHandHoldingHeart,
   FaCheckCircle,
   FaTimesCircle,
-  FaClock,
-  FaMapMarkerAlt,
-  FaPhone,
-  FaEnvelope,
-  FaCalendarAlt,
-  FaSort,
-  FaSortUp,
-  FaSortDown,
   FaLock
 } from 'react-icons/fa';
 import { useQuery, useMutation, useQueryClient } from 'react-query';
@@ -33,14 +24,13 @@ import { adminAPI } from '../../services/api';
 import LoadingSpinner from '../../components/ui/LoadingSpinner';
 import Modal from '../../components/ui/Modal';
 import Button from '../../components/ui/Button';
-import Input from '../../components/ui/Input';
-import Select from '../../components/ui/Select';
 import Badge from '../../components/ui/Badge';
 import Pagination from '../../components/ui/Pagination';
 
 const UserManagement = () => {
-  const { user, hasRole } = useAuth();
+  const { user } = useAuth();
   const queryClient = useQueryClient();
+  const currentUser = user;
   
   // Check roles early - needed for queries and rendering
   // Use direct role check to ensure accuracy
@@ -208,22 +198,6 @@ const UserManagement = () => {
       default:
         return 'bg-gray-100 text-gray-800';
     }
-  };
-
-  // Handle sort
-  const handleSort = (field) => {
-    if (sortBy === field) {
-      setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc');
-    } else {
-      setSortBy(field);
-      setSortOrder('asc');
-    }
-  };
-
-  // Get sort icon
-  const getSortIcon = (field) => {
-    if (sortBy !== field) return FaSort;
-    return sortOrder === 'asc' ? FaSortUp : FaSortDown;
   };
 
   // Handle edit user
@@ -556,7 +530,7 @@ const UserManagement = () => {
                           value={user.role}
                           onChange={(e) => handleRoleChange(user, e.target.value)}
                           className="text-sm border border-neutral-300 rounded px-2 py-1 focus:ring-2 focus:ring-blood-500 focus:border-transparent"
-                          disabled={user.role === 'system_admin' && user._id !== user._id}
+                          disabled={user.role === 'system_admin' && user._id === currentUser?._id}
                         >
                           <option value="donor">Donor</option>
                           <option value="recipient">Recipient</option>

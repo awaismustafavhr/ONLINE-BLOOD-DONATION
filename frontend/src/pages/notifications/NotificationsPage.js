@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from 'react';
 import { useQuery, useMutation, useQueryClient } from 'react-query';
 import { notificationAPI } from '../../services/api';
-import { FaBell, FaCheckCircle, FaTrash, FaEnvelopeOpenText, FaEnvelope, FaFilter, FaSearch } from 'react-icons/fa';
+import { FaBell, FaCheckCircle, FaTrash, FaEnvelopeOpenText, FaEnvelope, FaSearch } from 'react-icons/fa';
 import LoadingSpinner from '../../components/ui/LoadingSpinner';
 import Button from '../../components/ui/Button';
 import Pagination from '../../components/ui/Pagination';

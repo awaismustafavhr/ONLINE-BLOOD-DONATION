@@ -4,33 +4,19 @@ import { motion } from 'framer-motion';
 import { 
   FaPlus, 
   FaSearch, 
-  FaFilter, 
   FaEye, 
-  FaEdit, 
-  FaTrash, 
   FaCheckCircle, 
-  FaTimes, 
-  FaClock, 
   FaHeart,
   FaUser,
   FaCalendarAlt,
-  FaSort,
-  FaSortUp,
-  FaSortDown,
   FaTint,
-  FaWeight,
-  FaUserMd,
-  FaMapMarkerAlt,
-  FaPhone,
-  FaEnvelope
+  FaUserMd
 } from 'react-icons/fa';
 import { useQuery, useMutation, useQueryClient } from 'react-query';
 import { donationAPI } from '../../services/api';
 import LoadingSpinner from '../../components/ui/LoadingSpinner';
 import Modal from '../../components/ui/Modal';
 import Button from '../../components/ui/Button';
-import Input from '../../components/ui/Input';
-import Select from '../../components/ui/Select';
 import Badge from '../../components/ui/Badge';
 import Pagination from '../../components/ui/Pagination';
 
@@ -70,7 +56,7 @@ const DonationsPage = () => {
 
 
   // Fetch donations
-  const { data: donationsData, isLoading: donationsLoading, error: donationsError, refetch: refetchDonations } = useQuery(
+  const { data: donationsData, isLoading: donationsLoading, refetch: refetchDonations } = useQuery(
     ['donations', { 
       searchTerm, 
       statusFilter, 
@@ -297,22 +283,6 @@ const DonationsPage = () => {
       'O-': 'bg-green-200 text-green-900'
     };
     return colors[bloodType] || 'bg-gray-100 text-gray-800';
-  };
-
-  // Handle sort
-  const handleSort = (field) => {
-    if (sortBy === field) {
-      setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc');
-    } else {
-      setSortBy(field);
-      setSortOrder('asc');
-    }
-  };
-
-  // Get sort icon
-  const getSortIcon = (field) => {
-    if (sortBy !== field) return FaSort;
-    return sortOrder === 'asc' ? FaSortUp : FaSortDown;
   };
 
   // Handle view donation

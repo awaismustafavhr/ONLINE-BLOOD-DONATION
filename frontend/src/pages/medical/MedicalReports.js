@@ -2,14 +2,10 @@ import React, { useState } from 'react';
 import { useAuth } from '../../contexts/AuthContext';
 import { motion } from 'framer-motion';
 import { 
-  FaFileAlt,
   FaDownload,
-  FaChartLine,
   FaHeart,
   FaHandHoldingHeart,
   FaUserMd,
-  FaCalendarAlt,
-  FaFilter,
   FaClock
 } from 'react-icons/fa';
 import { useQuery } from 'react-query';
@@ -18,7 +14,7 @@ import LoadingSpinner from '../../components/ui/LoadingSpinner';
 import Button from '../../components/ui/Button';
 
 const MedicalReports = () => {
-  const { user, hasRole } = useAuth();
+  const { hasRole } = useAuth();
   const [selectedPeriod, setSelectedPeriod] = useState('30d');
 
   // Helper: map selectedPeriod to date range

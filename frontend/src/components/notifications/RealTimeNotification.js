@@ -8,8 +8,6 @@ import {
   FaHandHoldingHeart, 
   FaExclamationTriangle, 
   FaInfoCircle, 
-  FaCheckCircle,
-  FaClock,
   FaMapMarkerAlt,
   FaTint,
   FaUsers,
@@ -20,7 +18,7 @@ import { useAuth } from '../../contexts/AuthContext';
 import { notificationAPI } from '../../services/api';
 
 const RealTimeNotification = () => {
-  const { socket, isConnected, notifications, unreadCount, markNotificationAsRead, markAllNotificationsAsRead } = useSocket();
+  const { isConnected, notifications, unreadCount, markNotificationAsRead, markAllNotificationsAsRead } = useSocket();
   const { user } = useAuth();
   const [isOpen, setIsOpen] = useState(false);
   const [recentNotifications, setRecentNotifications] = useState([]);

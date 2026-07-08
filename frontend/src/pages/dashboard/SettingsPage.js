@@ -1,39 +1,24 @@
 import React, { useState } from 'react';
-import { useAuth } from '../../contexts/AuthContext';
 import { motion } from 'framer-motion';
 import { 
   FaCog, 
   FaBell, 
   FaShieldAlt, 
-  FaEye, 
-  FaEyeSlash, 
   FaSave, 
   FaCheckCircle, 
   FaExclamationTriangle, 
-  FaInfoCircle,
-  FaToggleOn,
-  FaToggleOff,
-  FaGlobe,
-  FaMobile,
   FaEnvelope,
-  FaMapMarkerAlt,
-  FaClock,
-  FaLanguage,
-  FaPalette,
-  FaMoon,
-  FaSun
+  FaMobile,
+  FaPalette
 } from 'react-icons/fa';
 import { useMutation, useQuery, useQueryClient } from 'react-query';
 import { userAPI } from '../../services/api';
 import LoadingSpinner from '../../components/ui/LoadingSpinner';
 import Button from '../../components/ui/Button';
-import Input from '../../components/ui/Input';
 import Select from '../../components/ui/Select';
 import Toggle from '../../components/ui/Toggle';
-import Badge from '../../components/ui/Badge';
 
 const SettingsPage = () => {
-  const { user } = useAuth();
   const queryClient = useQueryClient();
   
   // State
@@ -73,7 +58,7 @@ const SettingsPage = () => {
   });
 
   // Fetch user preferences
-  const { data: preferencesData, isLoading: preferencesLoading } = useQuery(
+  const { isLoading: preferencesLoading } = useQuery(
     'user-preferences',
     () => userAPI.getPreferences(),
     {

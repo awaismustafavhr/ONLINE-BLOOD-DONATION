@@ -7,48 +7,35 @@ import {
   FaTimesCircle,
   FaClock,
   FaSearch,
-  FaFilter,
-  FaEye,
-  FaFileMedical,
-  FaHeart,
   FaUser
 } from 'react-icons/fa';
 import { useQuery, useMutation, useQueryClient } from 'react-query';
 import { toast } from 'react-hot-toast';
 import { adminAPI } from '../../services/api';
 import LoadingSpinner from '../../components/ui/LoadingSpinner';
-import Modal from '../../components/ui/Modal';
 import Button from '../../components/ui/Button';
 import Badge from '../../components/ui/Badge';
 import Pagination from '../../components/ui/Pagination';
 
 const MedicalVerifications = () => {
-  const { user, hasRole } = useAuth();
+  const { hasRole } = useAuth();
   const queryClient = useQueryClient();
   
   const [searchTerm, setSearchTerm] = useState('');
   const [statusFilter, setStatusFilter] = useState('all');
-  const [sortBy, setSortBy] = useState('createdAt');
-  const [sortOrder, setSortOrder] = useState('desc');
   const [currentPage, setCurrentPage] = useState(1);
-  const [selectedUser, setSelectedUser] = useState(null);
-  const [showVerifyModal, setShowVerifyModal] = useState(false);
 
   // Fetch only donors and recipients for medical verification
   const { data: usersData, isLoading: usersLoading } = useQuery(
     ['medical-verifications', { 
       searchTerm, 
       statusFilter, 
-      sortBy, 
-      sortOrder, 
       page: currentPage 
     }],
     async () => {
       const params = {
         search: searchTerm || undefined,
         role: 'donor,recipient', // Only fetch donors and recipients
-        sortBy,
-        sortOrder,
         page: currentPage,
         limit: 10
       };
@@ -78,7 +65,6 @@ const MedicalVerifications = () => {
     {
       onSuccess: () => {
         queryClient.invalidateQueries('medical-verifications');
-        setShowVerifyModal(false);
         toast.success('User verification updated successfully');
       },
     }
@@ -94,7 +80,6 @@ const MedicalVerifications = () => {
   console.log('Medical Verifications - statusFilter:', statusFilter);
 
   const handleVerify = (user, verified) => {
-    setSelectedUser(user);
     verifyUserMutation.mutate({ userId: user._id, verified });
   };
 

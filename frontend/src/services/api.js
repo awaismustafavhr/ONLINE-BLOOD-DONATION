@@ -174,7 +174,7 @@ export const analyticsAPI = {
 export const auditAPI = {
   getAuditTrail: (params) => api.get('/audit', { params }),
   getAuditEntry: (id) => api.get(`/audit/${id}`),
-  getUserActivity: (userId, params) => api.get(`/audit/user/${userId}`, { params }),
+  getAuditUserActivity: (userId, params) => api.get(`/audit/user/${userId}`, { params }),
   getSuspiciousActivities: (params) => api.get('/audit/suspicious', { params }),
   getSecurityAlerts: (params) => api.get('/audit/security-alerts', { params }),
   getComplianceReport: (params) => api.get('/audit/compliance-report', { params }),
@@ -219,7 +219,7 @@ export const adminAPI = {
   // Audit Trail
   getAuditTrail: (params) => api.get('/audit', { params }),
   getAuditEntry: (id) => api.get(`/audit/${id}`),
-  getUserActivity: (userId, params) => api.get(`/audit/user/${userId}`, { params }),
+  getAuditUserActivity: (userId, params) => api.get(`/audit/user/${userId}`, { params }),
   getSuspiciousActivities: (params) => api.get('/audit/suspicious', { params }),
   getSecurityAlerts: (params) => api.get('/audit/security-alerts', { params }),
   getComplianceReport: (params) => api.get('/audit/compliance-report', { params }),

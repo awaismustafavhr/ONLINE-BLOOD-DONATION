@@ -41,7 +41,6 @@ import MedicalReports from './pages/medical/MedicalReports';
 
 // Protected Route Component
 import ProtectedRoute from './components/auth/ProtectedRoute';
-import LoadingSpinner from './components/ui/LoadingSpinner';
 
 // Create a client
 const queryClient = new QueryClient({

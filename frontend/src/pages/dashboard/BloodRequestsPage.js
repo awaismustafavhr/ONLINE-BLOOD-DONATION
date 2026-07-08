@@ -4,24 +4,15 @@ import { motion } from 'framer-motion';
 import { 
   FaPlus, 
   FaSearch, 
-  FaFilter, 
   FaEye, 
   FaEdit, 
   FaTrash, 
-  FaMapMarkerAlt, 
-  FaClock, 
-  FaExclamationTriangle, 
+  FaHospital, 
+  FaCalendarAlt, 
+  FaPhone,
   FaCheckCircle, 
-  FaTimes, 
   FaHeart,
   FaHandHoldingHeart,
-  FaUser,
-  FaPhone,
-  FaHospital,
-  FaCalendarAlt,
-  FaSort,
-  FaSortUp,
-  FaSortDown,
   FaUserCheck,
   FaThumbsUp,
   FaThumbsDown
@@ -31,8 +22,6 @@ import { bloodRequestAPI } from '../../services/api';
 import LoadingSpinner from '../../components/ui/LoadingSpinner';
 import Modal from '../../components/ui/Modal';
 import Button from '../../components/ui/Button';
-import Input from '../../components/ui/Input';
-import Select from '../../components/ui/Select';
 import Badge from '../../components/ui/Badge';
 import Pagination from '../../components/ui/Pagination';
 
@@ -59,7 +48,7 @@ const BloodRequestsPage = () => {
   const [showResponsesModal, setShowResponsesModal] = useState(false);
 
   // Fetch blood requests
-  const { data: requestsData, isLoading: requestsLoading, error: requestsError, refetch: refetchRequests } = useQuery(
+  const { data: requestsData, isLoading: requestsLoading, refetch: refetchRequests } = useQuery(
     ['blood-requests', { 
       searchTerm, 
       statusFilter, 
@@ -165,25 +154,6 @@ const BloodRequestsPage = () => {
     }
   );
 
-  // Update request mutation
-  const updateRequestMutation = useMutation(
-    ({ requestId, requestData }) => bloodRequestAPI.updateBloodRequest(requestId, requestData),
-    {
-      onSuccess: () => {
-        queryClient.invalidateQueries('blood-requests');
-        setShowRequestModal(false);
-        setShowStatusUpdateModal(false);
-        setSelectedRequest(null);
-        setStatusUpdateError('');
-      },
-      onError: (error) => {
-        console.error('Update request error:', error);
-        const apiMsg = error?.response?.data?.message;
-        setStatusUpdateError(apiMsg || 'Failed to update request status');
-      }
-    }
-  );
-  
   // Status update mutation (for medical admin)
   const updateStatusMutation = useMutation(
     ({ requestId, status }) => bloodRequestAPI.updateBloodRequest(requestId, { status }),
@@ -296,22 +266,6 @@ const BloodRequestsPage = () => {
       'O-': 'bg-green-200 text-green-900'
     };
     return colors[bloodType] || 'bg-gray-100 text-gray-800';
-  };
-
-  // Handle sort
-  const handleSort = (field) => {
-    if (sortBy === field) {
-      setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc');
-    } else {
-      setSortBy(field);
-      setSortOrder('asc');
-    }
-  };
-
-  // Get sort icon
-  const getSortIcon = (field) => {
-    if (sortBy !== field) return FaSort;
-    return sortOrder === 'asc' ? FaSortUp : FaSortDown;
   };
 
   // Check if user is medical admin

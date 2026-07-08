@@ -4,20 +4,12 @@ import { motion } from 'framer-motion';
 import { 
   FaShieldAlt, 
   FaSearch, 
-  FaFilter, 
   FaDownload, 
   FaEye, 
   FaUser, 
-  FaCalendarAlt, 
   FaClock, 
-  FaMapMarkerAlt, 
   FaExclamationTriangle, 
-  FaCheckCircle, 
   FaInfoCircle, 
-  FaTimesCircle,
-  FaSort,
-  FaSortUp,
-  FaSortDown,
   FaTrash,
   FaEdit,
   FaPlus,
@@ -30,21 +22,17 @@ import {
   FaGlobe,
   FaCloud,
   FaKey,
-  FaLock,
-  FaUnlock
+  FaLock
 } from 'react-icons/fa';
 import { useQuery } from 'react-query';
 import { adminAPI } from '../../services/api';
 import LoadingSpinner from '../../components/ui/LoadingSpinner';
 import Modal from '../../components/ui/Modal';
-import Button from '../../components/ui/Button';
-import Input from '../../components/ui/Input';
-import Select from '../../components/ui/Select';
 import Badge from '../../components/ui/Badge';
 import Pagination from '../../components/ui/Pagination';
 
 const AuditTrail = () => {
-  const { user, hasRole } = useAuth();
+  const { hasRole } = useAuth();
   
   // State
   const [searchTerm, setSearchTerm] = useState('');
@@ -53,8 +41,8 @@ const AuditTrail = () => {
   const [entityFilter, setEntityFilter] = useState('all');
   const [dateFrom, setDateFrom] = useState('');
   const [dateTo, setDateTo] = useState('');
-  const [sortBy, setSortBy] = useState('createdAt');
-  const [sortOrder, setSortOrder] = useState('desc');
+  const sortBy = 'createdAt';
+  const sortOrder = 'desc';
   const [currentPage, setCurrentPage] = useState(1);
   const [selectedLog, setSelectedLog] = useState(null);
   const [showLogModal, setShowLogModal] = useState(false);
@@ -176,22 +164,6 @@ const AuditTrail = () => {
       default:
         return FaInfoCircle;
     }
-  };
-
-  // Handle sort
-  const handleSort = (field) => {
-    if (sortBy === field) {
-      setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc');
-    } else {
-      setSortBy(field);
-      setSortOrder('asc');
-    }
-  };
-
-  // Get sort icon
-  const getSortIcon = (field) => {
-    if (sortBy !== field) return FaSort;
-    return sortOrder === 'asc' ? FaSortUp : FaSortDown;
   };
 
   // Handle view log

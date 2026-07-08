@@ -13,6 +13,7 @@ export const SocketProvider = ({ children }) => {
   const [unreadCount, setUnreadCount] = useState(0);
   const [connectionAttempts, setConnectionAttempts] = useState(0);
   const { isAuthenticated, user, token } = useAuth();
+  const userId = user?.id || user?._id;
 
   // Initialize unread count from API (fallback when no socket event yet)
   useEffect(() => {
@@ -81,7 +82,7 @@ export const SocketProvider = ({ children }) => {
         setIsConnected(true);
         
         // Join user's personal room
-        newSocket.emit('join-user-room', user?._id);
+        newSocket.emit('join-user-room', userId);
       });
 
       newSocket.on('disconnect', () => {
@@ -173,7 +174,7 @@ export const SocketProvider = ({ children }) => {
       // Listen for user status updates
       newSocket.on('user-status-update', (data) => {
         console.log('User status update:', data);
-        if (data.userId === user.id) {
+        if (data.userId === userId) {
           toast.success(`Status updated: ${data.message}`, {
             duration: 3000,
           });
@@ -188,7 +189,7 @@ export const SocketProvider = ({ children }) => {
         setIsConnected(false);
       };
     }
-  }, [isAuthenticated, token, user?._id, socket, connectionAttempts]);
+  }, [isAuthenticated, token, userId, socket, connectionAttempts]);
 
   // Reset connection attempts when user logs out
   useEffect(() => {

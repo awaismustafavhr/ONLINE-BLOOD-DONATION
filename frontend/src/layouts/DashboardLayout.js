@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Link, useLocation, useNavigate } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { useSocket } from '../contexts/SocketContext';
 import { useTheme } from '../contexts/ThemeContext';
@@ -15,26 +15,20 @@ import {
   FaTachometerAlt,
   FaUsers,
   FaHandHoldingHeart,
-  FaChartLine,
   FaShieldAlt,
   FaFileAlt,
   FaCog as FaSettings,
-  FaHome,
   FaUserMd,
-  FaDatabase,
-  FaExclamationTriangle,
   FaDownload,
   FaTimes as FaClose
 } from 'react-icons/fa';
-import LoadingSpinner from '../components/ui/LoadingSpinner';
 import Modal from '../components/ui/Modal';
 
 const DashboardLayout = ({ children }) => {
   const { user, logout, hasRole } = useAuth();
-  const { unreadCount, markAllNotificationsAsRead } = useSocket();
+  const { unreadCount } = useSocket();
   const { toggleTheme, theme, getBloodTypeThemeClasses } = useTheme();
   const location = useLocation();
-  const navigate = useNavigate();
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [showProfilePictureModal, setShowProfilePictureModal] = useState(false);
 

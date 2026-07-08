@@ -22,8 +22,8 @@ import {
 } from 'react-icons/fa';
 
 const LandingPage = () => {
-  const { isAuthenticated, user } = useAuth();
-  const { getGradientClasses, getAnimationClasses } = useTheme();
+  const { isAuthenticated } = useAuth();
+  const { getGradientClasses } = useTheme();
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
 
   // Testimonials data

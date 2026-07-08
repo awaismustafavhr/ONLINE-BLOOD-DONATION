@@ -7,29 +7,19 @@ import {
   FaHandHoldingHeart, 
   FaChartLine, 
   FaShieldAlt, 
-  FaExclamationTriangle,
   FaCheckCircle,
-  FaClock,
   FaArrowUp,
   FaArrowDown,
   FaMinus,
-  FaEye,
-  FaEdit,
-  FaTrash,
   FaPlus,
   FaFilter,
-  FaSearch,
   FaDownload,
   FaBell,
-  FaMapMarkerAlt,
-  FaCalendarAlt,
-  FaTrophy,
-  FaUserMd,
   FaDatabase,
   FaInfoCircle
 } from 'react-icons/fa';
 import { useQuery } from 'react-query';
-import { adminAPI, analyticsAPI } from '../../services/api';
+import { adminAPI } from '../../services/api';
 import LoadingSpinner from '../../components/ui/LoadingSpinner';
 import Badge from '../../components/ui/Badge';
 
@@ -48,7 +38,7 @@ const AdminDashboard = () => {
   );
 
   // Fetch system health
-  const { data: systemHealth, isLoading: healthLoading } = useQuery(
+  const { data: systemHealth } = useQuery(
     'system-health',
     () => adminAPI.getSystemHealth(),
     {
@@ -57,18 +47,8 @@ const AdminDashboard = () => {
     }
   );
 
-  // Fetch analytics data
-  const { data: analyticsData, isLoading: analyticsLoading } = useQuery(
-    ['analytics', selectedPeriod],
-    () => analyticsAPI.getDashboard({ period: selectedPeriod }),
-    {
-      refetchInterval: 60000, // Refetch every minute
-    }
-  );
-
   const dashboard = adminData?.data?.dashboard || {};
   const health = systemHealth?.data?.systemHealth || {};
-  const analytics = analyticsData?.data?.dashboard || {};
 
   // Get period options
   const periodOptions = [

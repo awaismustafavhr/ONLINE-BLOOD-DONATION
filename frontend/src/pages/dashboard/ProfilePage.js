@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { useAuth } from '../../contexts/AuthContext';
-import { motion } from 'framer-motion';
 import toast from 'react-hot-toast';
 import { 
   FaUser, 
@@ -10,7 +9,6 @@ import {
   FaCamera, 
   FaEnvelope, 
   FaPhone, 
-  FaMapMarkerAlt, 
   FaHeart, 
   FaCalendarAlt, 
   FaShieldAlt, 
@@ -20,7 +18,6 @@ import {
   FaLock,
   FaEye,
   FaEyeSlash,
-  FaCheckCircle,
   FaExclamationTriangle,
   FaDownload,
   FaTimes as FaClose,
@@ -44,7 +41,7 @@ const ProfilePage = () => {
   const [showPasswordModal, setShowPasswordModal] = useState(false);
   const [showDeleteModal, setShowDeleteModal] = useState(false);
   const [showProfilePictureModal, setShowProfilePictureModal] = useState(false);
-  const [profilePictureFile, setProfilePictureFile] = useState(null);
+  const [, setProfilePictureFile] = useState(null);
   const [isUploadingProfilePicture, setIsUploadingProfilePicture] = useState(false);
   const [formData, setFormData] = useState({
     name: user?.firstName && user?.lastName ? `${user.firstName} ${user.lastName}` : '',

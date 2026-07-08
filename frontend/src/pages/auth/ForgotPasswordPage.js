@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { useAuth } from '../../contexts/AuthContext';
 import { motion } from 'framer-motion';
 import { FaArrowLeft, FaEnvelope, FaCheckCircle, FaExclamationTriangle } from 'react-icons/fa';
-import LoadingSpinner from '../../components/ui/LoadingSpinner';
 import Button from '../../components/ui/Button';
 import Input from '../../components/ui/Input';
 
