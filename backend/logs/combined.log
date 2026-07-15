@@ -8459,3 +8459,9 @@
 {"level":"info","message":"BloodLink server running on port 5000","timestamp":"2026-07-15 12:22:51:2251"}
 {"level":"info","message":"Environment: development","timestamp":"2026-07-15 12:22:51:2251"}
 {"level":"info","message":"Health check: http://localhost:5000/health","timestamp":"2026-07-15 12:22:51:2251"}
+{"level":"info","message":"User logged in: aliahmad786@gmail.com","timestamp":"2026-07-15 12:24:17:2417"}
+{"level":"info","message":"Fetching notifications for user 6a4686f13981a22cf2c9c20a (aliahmad786@gmail.com) with filter:","timestamp":"2026-07-15 12:24:17:2417"}
+{"level":"info","message":"Fetching notifications for user 6a4686f13981a22cf2c9c20a (aliahmad786@gmail.com) with filter:","timestamp":"2026-07-15 12:24:17:2417"}
+{"level":"info","message":"Found 0 notifications out of 0 total for user 6a4686f13981a22cf2c9c20a","timestamp":"2026-07-15 12:24:18:2418"}
+{"level":"info","message":"Found 0 notifications out of 0 total for user 6a4686f13981a22cf2c9c20a","timestamp":"2026-07-15 12:24:18:2418"}
+{"level":"info","message":"User logged out: aliahmad786@gmail.com","timestamp":"2026-07-15 12:24:24:2424"}
