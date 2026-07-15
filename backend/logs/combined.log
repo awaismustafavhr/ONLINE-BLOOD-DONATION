@@ -8475,3 +8475,13 @@
 {"level":"info","message":"BloodLink server running on port 5000","timestamp":"2026-07-15 13:10:05:105"}
 {"level":"info","message":"Environment: development","timestamp":"2026-07-15 13:10:05:105"}
 {"level":"info","message":"Health check: http://localhost:5000/health","timestamp":"2026-07-15 13:10:05:105"}
+{"level":"info","message":"Attempting to connect to MongoDB using URI: mongodb+srv://awais:***@cluster0.slr4sml.mongodb.net/blood_donation?appName=Cluster0","timestamp":"2026-07-15 13:10:19:1019"}
+{"level":"info","message":"MongoDB Connected: ac-8r8czhq-shard-00-00.slr4sml.mongodb.net","timestamp":"2026-07-15 13:10:20:1020"}
+{"level":"info","message":"Setting up database indexes...","timestamp":"2026-07-15 13:10:20:1020"}
+{"level":"info","message":"Database indexes created successfully","timestamp":"2026-07-15 13:10:23:1023"}
+{"level":"info","message":"Database setup completed successfully","timestamp":"2026-07-15 13:10:23:1023"}
+{"level":"info","message":"Starting HTTP server...","timestamp":"2026-07-15 13:10:23:1023"}
+{"level":"info","message":"Server startup initiated successfully","timestamp":"2026-07-15 13:10:23:1023"}
+{"level":"info","message":"BloodLink server running on port 5000","timestamp":"2026-07-15 13:10:23:1023"}
+{"level":"info","message":"Environment: development","timestamp":"2026-07-15 13:10:23:1023"}
+{"level":"info","message":"Health check: http://localhost:5000/health","timestamp":"2026-07-15 13:10:23:1023"}
