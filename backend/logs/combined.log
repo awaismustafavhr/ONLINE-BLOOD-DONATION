@@ -8465,3 +8465,13 @@
 {"level":"info","message":"Found 0 notifications out of 0 total for user 6a4686f13981a22cf2c9c20a","timestamp":"2026-07-15 12:24:18:2418"}
 {"level":"info","message":"Found 0 notifications out of 0 total for user 6a4686f13981a22cf2c9c20a","timestamp":"2026-07-15 12:24:18:2418"}
 {"level":"info","message":"User logged out: aliahmad786@gmail.com","timestamp":"2026-07-15 12:24:24:2424"}
+{"level":"info","message":"Attempting to connect to MongoDB using URI: mongodb+srv://awais:***@cluster0.slr4sml.mongodb.net/blood_donation?appName=Cluster0","timestamp":"2026-07-15 13:10:01:101"}
+{"level":"info","message":"MongoDB Connected: ac-8r8czhq-shard-00-00.slr4sml.mongodb.net","timestamp":"2026-07-15 13:10:02:102"}
+{"level":"info","message":"Setting up database indexes...","timestamp":"2026-07-15 13:10:02:102"}
+{"level":"info","message":"Database indexes created successfully","timestamp":"2026-07-15 13:10:05:105"}
+{"level":"info","message":"Database setup completed successfully","timestamp":"2026-07-15 13:10:05:105"}
+{"level":"info","message":"Starting HTTP server...","timestamp":"2026-07-15 13:10:05:105"}
+{"level":"info","message":"Server startup initiated successfully","timestamp":"2026-07-15 13:10:05:105"}
+{"level":"info","message":"BloodLink server running on port 5000","timestamp":"2026-07-15 13:10:05:105"}
+{"level":"info","message":"Environment: development","timestamp":"2026-07-15 13:10:05:105"}
+{"level":"info","message":"Health check: http://localhost:5000/health","timestamp":"2026-07-15 13:10:05:105"}
