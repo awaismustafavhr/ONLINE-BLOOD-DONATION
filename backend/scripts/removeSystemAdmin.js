@@ -20,7 +20,7 @@ const setMongoDnsServers = () => {
 
 setMongoDnsServers();
 
-const mongoUri = process.env.MONGODB_URI || 'mongodb+srv://awais:Awais2525@cluster1.r38qfpg.mongodb.net/blood_donation?retryWrites=true&w=majority&appName=Cluster1';
+const mongoUri = process.env.MONGODB_URI || 'mongodb+srv://awais:awais123456@cluster0.slr4sml.mongodb.net/blood_donation?appName=Cluster0';
 
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
 

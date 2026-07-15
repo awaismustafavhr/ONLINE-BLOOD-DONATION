@@ -176,7 +176,9 @@ app.use('*', (req, res) => {
 });
 
 // Database connection
-const DEFAULT_MONGODB_URI = 'mongodb+srv://awais:Awais2525@cluster1.r38qfpg.mongodb.net/blood_donation?retryWrites=true&w=majority&appName=Cluster1';
+const DEFAULT_MONGODB_URI = 'mongodb+srv://awais:awais123456@cluster0.slr4sml.mongodb.net/blood_donation?appName=Cluster0';
+
+const maskMongoUri = (uri) => uri.replace(/\/\/([^:]+):([^@]+)@/, '//$1:***@');
 
 mongoose.connection.on('error', (error) => {
   logger.error('MongoDB connection error event:', {
@@ -194,7 +196,7 @@ mongoose.connection.on('disconnected', () => {
 const connectDB = async () => {
   try {
     const mongoUri = process.env.MONGODB_URI || DEFAULT_MONGODB_URI;
-    logger.info(`Attempting to connect to MongoDB using URI: ${mongoUri}`);
+    logger.info(`Attempting to connect to MongoDB using URI: ${maskMongoUri(mongoUri)}`);
 
     const conn = await mongoose.connect(mongoUri, {
       serverSelectionTimeoutMS: 10000,
