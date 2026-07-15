@@ -1,0 +1,11 @@
+{
+  "files.exclude": {
+    "frontend/build": true
+  },
+  "search.exclude": {
+    "frontend/build": true
+  },
+  "files.watcherExclude": {
+    "frontend/build/**": true
+  }
+}
