@@ -19,6 +19,14 @@ const colors = {
   debug: 'white',
 };
 
+const fs = require('fs');
+const logsDir = path.join(__dirname, '../logs');
+
+// Create logs directory before configuring file transports so startup works on fresh deploys.
+if (!fs.existsSync(logsDir)) {
+  fs.mkdirSync(logsDir, { recursive: true });
+}
+
 // Tell winston that you want to link the colors
 winston.addColors(colors);
 
@@ -86,13 +94,6 @@ const logger = winston.createLogger({
     })
   ],
 });
-
-// Create logs directory if it doesn't exist
-const fs = require('fs');
-const logsDir = path.join(__dirname, '../logs');
-if (!fs.existsSync(logsDir)) {
-  fs.mkdirSync(logsDir, { recursive: true });
-}
 
 // Add custom methods for different log types
 logger.audit = (message, meta = {}) => {
