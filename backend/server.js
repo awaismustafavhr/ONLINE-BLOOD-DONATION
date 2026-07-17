@@ -56,10 +56,19 @@ const app = express();
 const server = createServer(app);
 
 // Socket.IO setup for real-time features
+const allowedOrigins = [
+  process.env.CLIENT_URL,
+  'http://localhost:3000',
+  'http://localhost:3001',
+].filter(Boolean); // Remove undefined/null values
+
+console.info(`CORS allowed origins: ${allowedOrigins.join(', ')}`);
+
 const io = new Server(server, {
   cors: {
-    origin: process.env.CLIENT_URL || "http://localhost:3000",
-    methods: ["GET", "POST"]
+    origin: allowedOrigins,
+    methods: ["GET", "POST"],
+    credentials: true
   }
 });
 
@@ -108,7 +117,15 @@ app.use(speedLimiter);
 
 // CORS configuration
 app.use(cors({
-  origin: process.env.CLIENT_URL || "http://localhost:3000",
+  origin: function(origin, callback) {
+    // Allow requests with no origin (like mobile apps, curl, Postman)
+    if (!origin) return callback(null, true);
+    if (allowedOrigins.includes(origin)) {
+      return callback(null, true);
+    }
+    logger.warn(`CORS blocked request from origin: ${origin}`);
+    return callback(new Error(`Origin ${origin} not allowed by CORS`));
+  },
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With']
@@ -140,6 +157,28 @@ if (process.env.NODE_ENV === 'development') {
 // Audit logging middleware
 app.use(auditLogger);
 
+// Root route - API info
+app.get('/', (req, res) => {
+  res.status(200).json({
+    status: 'success',
+    message: 'BloodLink API is running',
+    version: '1.0.0',
+    environment: process.env.NODE_ENV,
+    timestamp: new Date().toISOString(),
+    endpoints: {
+      health: '/health',
+      auth: '/api/auth',
+      users: '/api/users',
+      bloodRequests: '/api/blood-requests',
+      donations: '/api/donations',
+      notifications: '/api/notifications',
+      analytics: '/api/analytics',
+      audit: '/api/audit',
+      admin: '/api/admin'
+    }
+  });
+});
+
 // Health check endpoint
 app.get('/health', (req, res) => {
   res.status(200).json({
@@ -147,6 +186,7 @@ app.get('/health', (req, res) => {
     message: 'BloodLink API is running',
     timestamp: new Date().toISOString(),
     environment: process.env.NODE_ENV,
+    mongodb: mongoose.connection.readyState === 1 ? 'connected' : 'disconnected',
     version: '1.0.0'
   });
 });
