@@ -55,12 +55,13 @@ const auditLogger = require('./middleware/auditLogger');
 const app = express();
 const server = createServer(app);
 
-// Socket.IO setup for real-time features
+// Allowed CORS origins — includes env var + hardcoded Vercel URL as fallback
 const allowedOrigins = [
   process.env.CLIENT_URL,
+  'https://online-blood-donation-five.vercel.app', // your Vercel frontend
   'http://localhost:3000',
   'http://localhost:3001',
-].filter(Boolean); // Remove undefined/null values
+].filter(Boolean);
 
 console.info(`CORS allowed origins: ${allowedOrigins.join(', ')}`);
 
@@ -115,17 +116,17 @@ const speedLimiter = slowDown({
 app.use(limiter);
 app.use(speedLimiter);
 
-// CORS configuration
+// CORS configuration — use array directly (avoids 500 on preflight)
 app.use(cors({
-  origin: function(origin, callback) {
-    // Allow requests with no origin (like mobile apps, curl, Postman)
-    if (!origin) return callback(null, true);
-    if (allowedOrigins.includes(origin)) {
-      return callback(null, true);
-    }
-    logger.warn(`CORS blocked request from origin: ${origin}`);
-    return callback(new Error(`Origin ${origin} not allowed by CORS`));
-  },
+  origin: allowedOrigins,
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With']
+}));
+
+// Explicitly handle OPTIONS preflight for all routes
+app.options('*', cors({
+  origin: allowedOrigins,
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With']
