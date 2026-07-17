@@ -1,1 +1,8 @@
 node_modules
+backend/.env
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+backend/logs/
+backend/uploads/profile-pictures/
+*.log
